@@ -1,3 +1,16 @@
-background{
-  colo
-}
+  body{
+    background-color: #000000;
+  }
+
+  h1{
+    color: #FFF;
+    font-family: arial;
+    font-size: 38;
+    background-color: : #FFF;
+  }
+
+  p{
+    color: #FFF;
+    font-family: arial;
+    font-size: 22;
+  }
