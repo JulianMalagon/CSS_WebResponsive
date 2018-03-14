@@ -1,0 +1,33 @@
+body{
+  background-color: #DFE0D0;
+  font-family: "Book Antiqua";
+}
+h1{
+  color: #005F6B;
+  font-size: 28px;
+  font-variant: small-caps;
+  font-style: italic;
+}
+nav{
+  background-position: center;
+  font-family: "Palatino Linotype"!important;
+  font-size: 18px;
+  color: #008C9E;
+}
+h2{
+  color: #008C9E;
+  font-size: 18px;
+  font-family: "Palatino";
+  font-style: oblique;
+}
+p{
+  color: #343838;
+  font-family: "Rockwell";
+  font-style: oblique;
+}
+footer{
+  color: #009288;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: italic;
+}
