@@ -1,0 +1,85 @@
+body
+{
+  background-color: #d4d2d4;
+}
+footer{
+  margin-top: 20px;
+}
+img{
+  border-radius: 10px;
+}
+#Contenedor{
+  font-family: "Palatino";
+  font-size: 16px;
+  color: #515050;
+}
+#Encabezado{
+  display: block;
+  margin: 0 auto;
+  margin-left: 30px;
+}
+/*Selector de Busqueda contenido o palabra que
+EMPIEZA - COMIENZA por  */
+a[href^="html"]{
+  color: #00bfbd;
+}
+/*Selector de Busqueda contenido o palabra que
+CONTENGA el atributo*/
+img[src|=".svg"]{
+  border-radius: 50px;
+}
+/*Selector de Busqueda contenido o palabra que
+TERMINA por*/
+img[src$="jpg"], img[src$="png"]{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/*SELECTORES AVANZADOS*/
+/*Selector Universal //
+Se aplica a todo el Documento*/
+*{
+  margin: 1vh 1vw;
+}
+/*Selecciona Siguiente elemento
+Ej (A+B)= B - Selecciona segundo UNICO elemento*/
+h1 + h2{
+  text-decoration: underline;
+}
+/*Selector Adyasente
+Selecciona TODOS los elementos siguientes al refereciado
+Ej (C ~ D)= Todos los D que sean hijos del elemento C*/
+h2 ~ p{
+  text-align: justify;
+}
+/*Selector de Hijos consiguientes*/
+body > h3{
+  text-decoration: line-through;
+}
+ul li {
+  list-style-type: armenian;
+}
+
+/*PSEUDOCLASES Y PSEUDOELEMENTOS*/
+
+/*Modifica atributos de los enlaces una vez abiertos*/
+a[href^="http://"]:visited{
+  color: #007f7e;
+}
+/*Agregar contenido
+First Child = Primer Hijo
+after= Despues de */
+#Estudios>ul>li:first-child>a::after{
+  content: "'- after'"
+}
+/*Agregar contenido
+Last Child = Ultimo Hijo
+before= Antes de */
+#Estudios>ul>li:last-child>a::before{
+  content: '"before -"'
+}
+/*Agregar contenido
+:nthChild(-) = Numero de Hijo */
+#Estudios>ul>li:nth-child(2)::after{
+  content: "Hijo # 2"
+}

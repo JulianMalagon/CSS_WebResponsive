@@ -1,0 +1,54 @@
+body{
+  margin: 20px;
+  font-family: verdana;
+}
+#menu-principal{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+a[href^="vuelos"]{
+  color: green;
+  text-decoration:none;
+}
+a[href^="vuelos"]:hover{
+  text-decoration: underline;
+  color: #00BFBD;
+}
+#menu-principal a + a::before{
+  content: "| ";
+  color: black;
+}
+footer{
+  margin-top: 20px;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px
+}
+th{
+  padding: 10px;
+}
+td{
+  padding: 10px;
+}
+tbody tr:nth-child(2n){
+  background-color: #CCC;
+}
+tbody tr:nth-child(2n+1){
+  background-color: #CCF;
+}
+tr:hover:nth-child(2n){
+  background-color: #DDD;
+}
+tr:hover:nth-child(2n+1){
+  background-color: #DDD;
+}
+.Sombra{
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.6)
+}

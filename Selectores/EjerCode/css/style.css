@@ -1,0 +1,20 @@
+#Comentarios{
+  width: 200px;
+}
+
+body{
+  margin: 20px;
+  font-family: verdana;
+}
+
+#Email{
+  background-color: #EEE;
+}
+
+label[for|="Email"]{
+  color: red;
+}
+
+p, label{
+  font-family: tahoma;
+}
