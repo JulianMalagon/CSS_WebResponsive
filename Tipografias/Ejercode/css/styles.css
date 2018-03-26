@@ -3,7 +3,7 @@ body{
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: verdana;
+  font-family: "Lora";
 }
 .Resaltado{
   background-color: yellow;
@@ -22,4 +22,16 @@ footer{
   border-top-color: black;
   padding-top: 10px;
   text-align: center;
+}
+@font-face {
+  font-family: "FuenteLato";
+  src: url(../fuentes/Lato-Regular.ttf);
+}
+#menu-principal{
+  font-family: "FuenteLato";
+  font-style: italic;
+}
+#Titulo{
+  font-family: "FuenteLato";
+  font-variant: small-caps;
 }
