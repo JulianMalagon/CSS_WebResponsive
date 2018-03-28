@@ -1,11 +1,11 @@
 body {
+		color: #000305;
 		font-size: 87.5%;
 		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 		line-height: 1.429;
 		margin: 0;
 		padding: 0;
 		text-align: left;
-		color: #000305;
 	}
 
 /* Encabezados */
@@ -25,9 +25,9 @@ h2, h3, h4, h5, h6 {
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
+	color: rgb(51, 153, 204);
 	padding: 0 1px;
 	text-decoration: underline;
-	color: rgb(51, 153, 204);
 }
 
 /* Párrafos */
@@ -113,7 +113,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 	/* Nav Principal*/
 	#banner nav {
-		background-color: hsl(0, 0%, 21%);
+		background: hsl(0, 0%, 21%);
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
@@ -127,20 +127,19 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	#banner nav li {float: left; display: inline; margin: 0;}
 
 	#banner nav a:link, #banner nav a:visited {
+		color: #fff;
 		display: inline-block;
 		height: 30px;
 		padding: 5px 1.5em;
 		text-decoration: none;
-		color: #FFF;
 	}
 	#banner nav a:hover, #banner nav a:active{
-		background-color: hsla(200, 60%, 50%, 0.65);
+		background: hsla(200, 60%, 50%, 0.65);
 		text-shadow: none !important;
 	}
 	#banner nav .active a:link, #banner nav .active a:visited {
+		background: #3399CC;
 		text-shadow: none !important;
-		background-color: #3399CC;
-		color: #FFF;
 	}
 
 /*
@@ -149,11 +148,11 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #featured {
 	background: url(../img/css3_html5_badges.png) right top no-repeat,
 							url(../img/papel_doblado.jpg) left top repeat;
+	background-size: 150px, 300px;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px;
 	width: 760px;
-	background-size: 150px, 300px;
 }
 
 #featured h2 {font-size: 1.714em; margin-bottom: 0.333em;}
